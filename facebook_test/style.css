@@ -1,0 +1,81 @@
+body {
+	font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+	font-size: 100%;
+	width: 490px;
+	padding: 0;
+	margin: 0;
+	min-height: 400px;
+	background-color: #7EDFFF;
+}
+
+
+#url {
+	padding-top: 20px;
+	clear: both;
+}
+
+#input {
+	background-color: #001F4C;
+	width: 500px;
+	padding-top: 5px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+	height: 60px;
+	margin:0;
+}
+
+#input-text {
+	padding: 5px;
+	padding-right: 5px;
+	color: #ffffff;
+	width: 480px;
+
+}
+
+#title {
+	font-size: 30px;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+#comment {
+	background-color: #7EDFFF;
+	overflow:hidden;
+	margin: 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+	z-index: -1;
+	width: 500px;
+	margin:0;
+}
+
+#suggest-name {
+	color: #000000;
+	background-color: #f4f4f4;
+	position: absolute;
+	z-index: 100;
+	width: 280px;
+	left: 86px;	
+}
+
+#suggest-name tbody tr td{
+	padding: 5px;
+	padding-left: 10px;
+}
+
+#friend {
+	width: 280px;
+	margin-left: 80px;
+	margin-right: 20px;
+}
+
+#footer {
+	font-size: 11px;
+	width: 520px;
+	background-color: #ffffff;
+	position:absolute;
+    top: 90px;
+}

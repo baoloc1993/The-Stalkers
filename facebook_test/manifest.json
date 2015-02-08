@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "Your Facebook friends' comments",
+  "description": "This extension searchs for your friends' comments from a long list",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_popup": "popup.html",
+	"default_icon": "icon.png"
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ],
+  
+ "content_scripts": [ {
+	"js": [ "jquery.min.js", "popup.js" ],
+	"matches": [ "http://*/*", "https://*/*"]
+  }]
+}

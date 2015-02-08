@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="table.css">
+
+	<script src="jquery.min.js"></script>
+	<script src ="loginFace.js"> </script>
+	<script src="popup.js"></script>
+</head>
+<body>
+
+	<div id="input"> 
+		<div id ="input-text"> <p id ="title"> SEARCH THAT POST! </p>
+			<input id = "friend" type="text" name="friend" autocomplete="off">
+			<input id= "submit" type="submit" value="Search">
+			<table id = "suggest-name" rules="rows">
+			</table>
+		</div>
+	</div>
+	
+	<div id="comment">
+
+	</div>
+	
+	<div id="url"> </div>
+	
+	<div id="footer"> 
+	<center>
+		<fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+		</fb:login-button>
+		Facebook Hackathon 2015 
+	</center>
+	</div>
+</body>
+</html>
